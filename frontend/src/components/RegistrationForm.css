@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsla(195, 75%, 85%, 0.936);
+  font-family: 'Poppins', sans-serif;
+}
+
+.registration-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFD700;
+  }
+
+  .registration-container h1{
+    text-align: center;
+    text-decoration: solid;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #3c763ddd;
+  }
+
+  .success-message {
+    background-color: #dff0d8; /* Bootstrap success alert color, you can change it */
+    border: 1px solid #d0e9c6; /* Bootstrap success alert border color, you can change it */
+    padding: 15px;
+    margin: 10px 0;
+    color: #3c763d; /* Bootstrap success alert text color, you can change it */
+    border-radius: 4px;
+  }
+  
+  
