@@ -1,3 +1,4 @@
 .env
-MONGO_URI
+/node_modules
+
 
