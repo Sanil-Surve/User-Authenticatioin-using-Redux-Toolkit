@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.set('strictQuery', true);
 
-const url = process.env.MONGO_URI;
+const url = process.env.MONGOURI;
 
 mongoose.connect(url)
 .then(() => {
